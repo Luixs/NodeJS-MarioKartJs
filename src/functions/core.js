@@ -82,11 +82,6 @@ async function playRaceEngine(player1, player2) {
             console.log(`✅ Player 2 Winner the Round` );
             player2 = { ...player2, points: player2?.points + 1 };
         }
-
-        console.table(player1);
-        console.table(player2);
-
-
     }
 
     await declareWinner(player1, player2)
