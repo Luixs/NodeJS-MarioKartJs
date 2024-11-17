@@ -12,11 +12,15 @@ import _utilsFunc from './utils.js';
 async function main() {
 
     //TODO: GET TWO PLAYES
+    // --- Get Random Players
+    let randomPlayer1 = _players[Math.floor(Math.random() * 5)];
+    let randomPlayer2 = _players[Math.floor(Math.random() * 5)];
+
     console.log("\n****🏎️  Mario Kart Simulator ****");
     console.log("*** 🏴󠁳󠁣󠀰󠀴󠁿 Starting a new Race! ***");
-    console.log("*** PLAYERS: Mario X Luigi");
+    console.log(`*** PLAYERS: ${randomPlayer1?.name} X ${randomPlayer2?.name}`);
 
-    await playRaceEngine(_players[0], _players[1]);
+    await playRaceEngine(randomPlayer1, randomPlayer2);
 }
 
 
