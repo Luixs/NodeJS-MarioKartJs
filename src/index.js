@@ -6,7 +6,6 @@
 //------------------------------------------------
 // IMPORTS
 //------------------------------------------------
-import { _players } from "./constants/players.js";
 import _coreFuncs from './functions/core.js';
 
 // --- Auto Invoke (<FUNCTION>)()
