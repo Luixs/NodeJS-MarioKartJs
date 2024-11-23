@@ -3,7 +3,7 @@ async function rollDice() {
 }
 
 async function choosePlayer() {
-    return 
+    return
 }
 
 async function getRandomBLock() {
@@ -24,7 +24,16 @@ async function getRandomBLock() {
 }
 
 async function rollingDiceEngine(playerName, blockType, diceResult, att) {
-    console.log(`🎲 Player ${playerName} rolling the dice of ${blockType} | 🎲 Gets: ${diceResult} | 🗒️ Total: ${diceResult} + ${att} = ${diceResult + att}`);
+
+    // --- APPLY ROLE
+    let currentSkill = diceResult + att;
+
+    // --- VISUAL RETURN
+    console.log(`🎲 Player ${playerName} rolling the dice of ${blockType} | 🎲 Gets: ${diceResult} | 🗒️ Total: ${diceResult} + ${att} = ${currentSkill}`);
+
+    // --- RETURN THE VALUE    
+    return currentSkill;
+
 }
 
 
