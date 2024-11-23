@@ -102,5 +102,10 @@
 <input type="checkbox" id="vitoria-item" />
 <label for="vitoria-item">At the end, the winner is the one who has accomulated the most points!</label>
 
-<b> 🎮 Gameplay:</b>
-<img src="./assets/demo/gameplay.png" alt="gameplay" width="120" height="120">
+<b> 🎮 Gameplay:</b> </br>
+
+[![Gameplay Image][gameplay]]([https://www.linkedin.com/in/luis-starlino/])
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+[gameplay]: assets/images/demo/gameplay.png
